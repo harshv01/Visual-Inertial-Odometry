@@ -2,7 +2,7 @@
 
 IMU works well with fast movement and jerks where camera fails but drifts over time in which camera excels. The combination of an IMU and a camera is beautiful multi-modal fusion problem which can be used to estimate accurate pose of the camera to backtrack depth!
 
-![Output-Trim-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/b9f9b12e-c27f-4df0-bd44-4defc7a991f5)
+<img src="https://github.com/user-attachments/assets/b9f9b12e-c27f-4df0-bd44-4defc7a991f5" width="400"/>
 
 MSCKF (Multi-State Constraint Kalman Filter) is an EKF based **tightly-coupled** visual-inertial odometry algorithm. [S-MSCKF](https://arxiv.org/abs/1712.00036) is MSCKF's stereo version. This project is a Python reimplemention of S-MSCKF, the code is directly translated from official C++ implementation [KumarRobotics/msckf_vio](https://github.com/KumarRobotics/msckf_vio).  
 
